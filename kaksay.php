@@ -31,8 +31,7 @@ function change(){
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
         echo color("red","===========(TUSUK MASS SAY)===========");
-        echo "\n".color("yellow","!] Claim voc BERDOA MULAI
-");
+        echo "\n".color("yellow","!] Claim voc BERDOA MULAI");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
