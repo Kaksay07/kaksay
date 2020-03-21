@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red","[•]         MAXIM AJA BRO.                    \n");
+echo color("red","[•]         L A M P U N G                   \n");
 echo color("red","[•]  Jangan kenyang2 muntah lo          \n");
 echo color("red","[•]     KAK SAY LINTAS BARAT             \n");
 echo color("red","$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n");
@@ -31,7 +31,8 @@ function change(){
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
         echo color("red","===========(TUSUK MASS SAY)===========");
-        echo "\n".color("yellow","!] Claim voc BERDOA MUALI");
+        echo "\n".color("yellow","!] Claim voc BERDOA MULAI
+");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
