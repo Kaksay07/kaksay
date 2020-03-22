@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red","[•]              L A M P U N G               \n");
+echo color("red","[•]         L A M P U N G               \n");
 echo color("red","[•]    GG Cengkeh makan pecel       \n");
 echo color("red","[•]     KAK SAY LINTAS BARAT             \n");
 echo color("red","$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n");
@@ -58,7 +58,6 @@ function change(){
         goto gofood;
         }else{
         echo "\n".color("red","-] Message: ".$message);
-        }
         reff:
         $data = '{"referral_code":"G-75SR565"}';    
         $claim = request("/customer_referrals/v1/campaign/enrolment", $token, $data);
