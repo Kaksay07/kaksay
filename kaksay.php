@@ -1,8 +1,8 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red","[•]         L A M P U N G                   \n");
-echo color("red","[•]  Jangan kenyang2 muntah lo          \n");
+echo color("red","[•]              L A M P U N G               \n");
+echo color("red","[•]    GG Cengkeh makan pecel       \n");
 echo color("red","[•]     KAK SAY LINTAS BARAT             \n");
 echo color("red","$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n");
 function change(){
@@ -31,13 +31,13 @@ function change(){
         $pilihan = trim(fgets(STDIN));
         if($pilihan == "y" || $pilihan == "Y"){
         echo color("red","===========(TUSUK MASS SAY)===========");
-        echo "\n".color("yellow","!] Claim voc BERDOA MULAI");
+        echo "\n".color("yellow","!] Claim voc BERDOA MUALI");
         echo "\n".color("yellow","!] Please wait");
         for($a=1;$a<=3;$a++){
         echo color("yellow",".");
         sleep(3);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGORIDEPAY"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"KEALFAYUK"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","+] Message: ".$message);
@@ -58,6 +58,7 @@ function change(){
         goto gofood;
         }else{
         echo "\n".color("red","-] Message: ".$message);
+        }
         reff:
         $data = '{"referral_code":"G-75SR565"}';    
         $claim = request("/customer_referrals/v1/campaign/enrolment", $token, $data);
@@ -75,7 +76,7 @@ function change(){
         echo color("yellow",".");
         sleep(3);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"COBAGOCAR14"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"BELANJALAGI"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","+] Message: ".$message);
