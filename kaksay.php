@@ -1,7 +1,7 @@
 <?php
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
-echo color("red","[•]              L A M P U N G               \n");
+echo color("red","[•]        L A M P U N G               \n");
 echo color("red","[•]    GG Cengkeh makan pecel       \n");
 echo color("red","[•]     KAK SAY LINTAS BARAT             \n");
 echo color("red","$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n");
